@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+}
+
+.content:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url(green-matrix-background-artwork-letters-matrix-texture-matrix.jpg);
+  width: 2100px;
+  height: 1400px;
+
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu {
+    padding-top: 20px;
+    background-color: none;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+a {
+  color: #c0c0c0;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px rgba(0,0,15, 0.5)
+}
+
+a:hover {
+  color: orangered;
+}
+
+.site-subtitle,
+.site-title {
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 8px 8px 8px rgba(0,0,0,0.5);    
+}
+
+.site-title {
+    font-size: 60px;
+  
+}
+
+.site-subtitle {
+  font-style: italic;
+}
